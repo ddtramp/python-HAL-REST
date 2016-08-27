@@ -1,7 +1,10 @@
-import orm
 import asyncio
 import sys
-from models import User, Blog, Comment
+
+from models import User
+
+from www import orm
+
 
 @asyncio.coroutine
 def test(loop):
