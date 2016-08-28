@@ -7,7 +7,8 @@ Configuration
 
 __author__ = 'Michael Liao'
 
-from . import config_default
+import config_default
+
 
 class Dict(dict):
     '''
